@@ -1,0 +1,19 @@
+{
+    "name": "ohtarr/netbox-php-sdk",
+    "description": "Netbox API PHP SDK",
+    "license": "LGPL-3.0-or-later",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "authors": [
+        {
+            "name": "ohtarr",
+            "email": "ohtarr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ohtarr\\Netbox\\": "src"
+        }
+    }
+}
